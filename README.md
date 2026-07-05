@@ -90,6 +90,15 @@
 * Обработка исключений
   - Конструкция ```try catch(Error $ex) finally```
   - Генерация исключений ```throw new Exception("waawawwa");```
+* Работа с файловой системой
+  - Чтение и запись файлов
+    - fopen(string $filename, string $mode)
+    - ```while(!feof($fd)) { (fgets($fd)); } ``` / ```fread($fd, 600)```
+    - fwrite($fd, $str);
+    - fputs($fd, $str);
+    - fclose($fd);
+    - file_get_contents()
+    - file_put_contents()
 
 
     
