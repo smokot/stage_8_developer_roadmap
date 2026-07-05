@@ -52,3 +52,5 @@
   - Статические методы и свойства
   - Интерфейсы
   - Абстрактные классы и методы
+  - Traits
+  - Копирование объектов классов. $bob = clone $tom; function __clone() { $this->company = clone $this->company; }
