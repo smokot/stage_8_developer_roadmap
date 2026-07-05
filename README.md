@@ -96,6 +96,7 @@
     - ```while(!feof($fd)) { (fgets($fd)); } ``` / ```fread($fd, 600)```
     - fwrite($fd, $str);
     - fputs($fd, $str);
+    - ```int fseek (resource $handle , int $offset [, int $whence = SEEK_SET ] )```
     - fclose($fd);
     - file_get_contents()
     - file_put_contents()
