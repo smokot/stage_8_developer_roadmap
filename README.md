@@ -46,3 +46,4 @@
   - Конструкторы и деструкторы
   - Анонимные классы
   - Наследование.  parent::__construct($name); parent::method($arg);
+  - $tom instanceof Employee;  // true
