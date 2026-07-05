@@ -74,6 +74,10 @@
     use const \base\classes\adminName;
     use function \base\classes\printPerson;
     ```
-
+* Типизация данных
+* Работа со строками
+* Работа с cookie
+  - Сохранение cookie - ```bool setcookie(string $name, string $value, int $expire, 
+                           string $path, string $domain, bool $secure, bool $httponly);```
 
     
