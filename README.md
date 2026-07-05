@@ -87,5 +87,9 @@
   - ```	$_SESSION["имя_переменной"] = значение; ```
   - ``` unset($_SESSION["имя_переменной"]);```
   - session_destroy();
+* Обработка исключений
+  - Конструкция ```try catch(Error $ex) finally```
+  - Генерация исключений ```throw new Exception("waawawwa");```
+
 
     
