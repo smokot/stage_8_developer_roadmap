@@ -80,4 +80,7 @@
   - Сохранение cookie - ```bool setcookie(string $name, string $value, int $expire, 
                            string $path, string $domain, bool $secure, bool $httponly);```
 
+  - Получение cookie - ```$_COOKIE["name"]```
+  - Удаление cookie - ```setcookie ("name", "", time() - 3600);``` / Для удаления cookie достаточно в качестве срока действия указать какое-либо время в прошлом:
+
     
