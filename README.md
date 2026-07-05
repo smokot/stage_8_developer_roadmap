@@ -100,6 +100,11 @@
     - fclose($fd);
     - file_get_contents()
     - file_put_contents()
-
+* Управление файлами и каталогами
+  - Перемещение файла ```rename("hello.txt", "subdir/hello.txt")```
+  - Копирование файла ```copy("hello.txt", "hello_copy.txt")```
+  - Удаление файла ```unlink("hello_copy.txt")```
+  - Создание каталога ```mkdir("newdir")```
+  - Удаление каталога ```rmdir("newdir")```
 
     
